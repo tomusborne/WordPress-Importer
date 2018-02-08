@@ -1,5 +1,7 @@
 <?php
 
+namespace GeneratePress\WPContentImporter2;
+
 /**
  * Describes a logger instance
  *
@@ -17,7 +19,7 @@
  * See https://github.com/php-fig/fig-standards/blob/master/accepted/PSR-3-logger-interface.md
  * for the full interface specification.
  */
-class WP_Importer_Logger {
+class WPImporterLogger {
 	/**
 	 * System is unusable.
 	 *
